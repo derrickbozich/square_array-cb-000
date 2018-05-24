@@ -1,4 +1,4 @@
 def square_array(array)
   # your code here
-  array.each {|i| array[i] = i*i}
+  array.each {|i|  i *= i}
 end
